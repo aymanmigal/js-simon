@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.color{
+    color: white;
+}
+
+
+body{
+    background-color: rgb(9, 9, 130);
+}
+
+.margin{
+    border-radius: 50px;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+
+.result-margin{
+    border-radius: 50px;
+    height: 150px;
+    width: 220px;
+    margin: 75px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
