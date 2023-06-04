@@ -16,7 +16,7 @@ for ( let i=1; i<=5; i++){
     //timer che fa sparire i numeri
     setTimeout(function() {
         numerBox.remove();
-    }, 30000);
+    }, 30020);
 
     //escuzione prompt 
     setTimeout(function () {
